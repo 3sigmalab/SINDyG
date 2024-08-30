@@ -9,7 +9,7 @@ Created on Sun Mar 12 16:55:52 2023
 # %%  ## Libraries ###
 
 import sys
-sys.path.append(r'/Users/sinakhan/Desktop/GSINDY')  # Replace with the actual path to your project directory
+sys.path.append(r'/...')  # Replace with the actual path to your project directory
 from run_experiment import run_experiment # Import the run_experiment function    
 run_experiment(
     dt=0.01, Al=0.2, max_edge_value=4, max_freq=2, # 5,2

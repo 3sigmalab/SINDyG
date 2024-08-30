@@ -14,7 +14,7 @@ import os
 
 
 import sys
-sys.path.append(r'/Users/sinakhan/Desktop/GSINDY')  # Replace with the actual path to your project directory
+sys.path.append(r'/...')  # Replace with the actual path to your project directory
 from run_experiment import run_experiment # Import the run_experiment function
 
 
@@ -31,7 +31,7 @@ repetition = 2
 
 
 # Main experiment loop
-base_path = r"/Users/sinakhan/Desktop/GSINDY/Experiment_Data"
+base_path = r"/..." # Replace with the actual path to your project directory
 csv_file_path = os.path.join(base_path, Variable_name + ".csv")
 
 total_runs = len(Variable_list) * repetition # 10 repetitions per num_oscillators
@@ -158,7 +158,7 @@ attributes_to_plot = [
 
 
 # Main experiment loop
-base_path = r"C:\Users\mabas\Documents\GitHub\GraphSindy\Experiment_Data"
+base_path = r"C:\..." # Replace with the actual path to your project directory
 csv_file_path = os.path.join(base_path, Variable_name + ".csv")
 
 total_runs = len(Variable_list) * repetition # 10 repetitions per num_oscillators
