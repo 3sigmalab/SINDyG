@@ -57,7 +57,7 @@ This repository contains Python code for modeling and analyzing coupled oscillat
 
 4. **Add Custom Functons:**
       * Once PySINDy is installed, navigate to its installation directory (you can find it using `!pip show pysindy`). Then, add the following files to the directory from our repository:
-        * Add `SINDyG/Custom Functions/STLSQG.py` to `(installation directory)/pysindy/optimizers/`
+      * Add `SINDyG/Custom Functions/stlsqG.py` to `(installation directory)/pysindy/optimizers/`
 
 ### Run Experiments
 * **Single Run:**
