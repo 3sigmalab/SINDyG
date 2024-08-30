@@ -57,10 +57,10 @@ This repository contains Python code for modeling and analyzing coupled oscillat
 4. **Add SINDyG Add-ons to PySINDy:**
       * Once PySINDy is installed, navigate to its installation directory (you can find it using `!pip show pysindy`).
       * Then, make the following modifications to add the SINDyG Add-ons to the PySINDY package.  
-      * replace `(installation directory)/pysindy/__init__.py' with `SINDyG/PySINDy Add-ons/__init__.py'
-      * replace `(installation directory)/pysindy/pysindy.py' with `SINDyG/PySINDy Add-ons/pysindy.py'
-      * replace `(installation directory)/pysindy/optimizers/__init__.py' with `SINDyG/PySINDy Add-ons/optimizers/__init__.py'
-      * Add `Graph-SINDY/pysindy/optimizers/STLSQG.py' to `(installation directory)/pysindy/optimizers/'
+      * replace `(installation directory)/pysindy/__init__.py` with `SINDyG/PySINDy Add-ons/__init__.py`
+      * replace `(installation directory)/pysindy/pysindy.py` with `SINDyG/PySINDy Add-ons/pysindy.py`
+      * replace `(installation directory)/pysindy/optimizers/__init__.py` with `SINDyG/PySINDy Add-ons/optimizers/__init__.py`
+      * Add `Graph-SINDY/pysindy/optimizers/STLSQG.py` to `(installation directory)/pysindy/optimizers/`
 
 ### Run Experiments
 * **Single Run:**
