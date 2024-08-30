@@ -22,7 +22,6 @@ This repository contains Python code for modeling and analyzing coupled oscillat
 1. **Prerequisites:** Make sure you have the following installed:
    * Python (3.6 or later)
    * Required libraries:  `numpy`, `pysindy`, `matplotlib`, `scipy`, `sklearn`, `networkx`, `sympy`, `pandas`
-   * `pysindyG` package (install from our repository as instructed below)
 
 2. **Install Git:**
 
@@ -55,9 +54,9 @@ This repository contains Python code for modeling and analyzing coupled oscillat
    * make sure the version is the one which is in their GitHub repository "pysindy @ git+https://github.com/dynamicslab"
 
 
-4. **Add Custom Functons:**
+4. **Add Custom Functions:**
       * Once PySINDy is installed, navigate to its installation directory (you can find it using `!pip show pysindy`). Then, add the following files to the directory from our repository:
-        * Add `Graph-SINDY/pysindy/optimizers/STLSQG.py` to `(installation directory)/pysindy/optimizers/`
+      * Add `SINDyG/Custom Functions/stlsqG.py` to `(installation directory)/pysindy/optimizers/`
 
 ### Run Experiments
 * **Single Run:**
