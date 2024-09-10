@@ -4,6 +4,14 @@ we developed a new method called Sparse Identification of Nonlinear Dynamical Sy
 
 This repository contains Python code for modeling and analyzing coupled oscillator systems using the SINDy (Sparse Identification of Nonlinear Dynamics) and SINDyG (SINDy with Graph) algorithms. 
 
+## Acknowledgement
+
+Please cite the following paper if you use this code. 
+
+```Mohammad Amin Basiri and Sina Khanmohammadi. "Discovering Governing equations from Graph-Structured Data by Sparse Identification of Nonlinear Dynamical Systems." arXiv preprint arXiv:2409.04463 (2024).```
+
+[https://doi.org/10.48550/arXiv.2409.04463](https://doi.org/10.48550/arXiv.2409.04463).
+
 
 ## Authors
 
@@ -12,7 +20,6 @@ This repository contains Python code for modeling and analyzing coupled oscillat
     
 2. <strong>Sina Khanmohammadi:</strong>  </a> <a href="https://scholar.google.co.uk/citations?hl=en&user=K6sMFj4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">
         <img src="https://img.shields.io/badge/Google Scholar-Link-lightblue">
-
 
 
 ## Instructions
@@ -36,7 +43,7 @@ This repository contains Python code for modeling and analyzing coupled oscillat
      git --version
      ```
 3. **Install PySINDy:**
-      * PySINDy is a sparse regression package with several implementations for the Sparse Identification of Nonlinear Dynamical systems (SINDy) method introduced in Brunton et al. (2016a)
+      * PySINDy is a sparse regression package with several implementations for the Sparse Identification of Nonlinear Dynamical systems (SINDy).
    * You can install the version V1.7.5 of pysindy by the following command:
 
      ```bash
@@ -142,3 +149,10 @@ run_experiment(dt=0.01, # time step
 * **Graph Types:**  The code currently supports 'ER' (Erdős-Rényi) and 'SF' (Scale-Free) graphs. You can add support for other graph types by modifying the `run_experiment` function.
 * **Metrics and Visualization:**  You can customize the `attributes_to_plot` list to generate sensitivity plots for different metrics.  You can also modify the plotting code to create different types of visualizations or use other plotting libraries.
    
+## References
+
+[1] Brunton, Steven L., Joshua L. Proctor, and J. Nathan Kutz. "Discovering governing equations from data by sparse identification of nonlinear dynamical systems." Proceedings of the national academy of sciences 113, no. 15 (2016): 3932-3937.
+
+[2] Kaptanoglu, Alan A., Brian M. de Silva, Urban Fasel, Kadierdan Kaheman, Andy J. Goldschmidt, Jared L. Callaham, Charles B. Delahunt et al. "PySINDy: A comprehensive Python package for robust sparse system identification." arXiv preprint arXiv:2111.08481 (2021).
+
+[3] Qin, Yuzhen, Tommaso Menara, Danielle S. Bassett, and Fabio Pasqualetti. "Phase-amplitude coupling in neuronal oscillator networks." Physical Review Research 3, no. 2 (2021): 023218.
