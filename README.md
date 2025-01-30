@@ -8,7 +8,7 @@ This repository contains Python code for modeling and analyzing coupled oscillat
 
 Please cite the following paper if you use this code. 
 
-```Mohammad Amin Basiri and Sina Khanmohammadi. "Discovering Governing equations from Graph-Structured Data by Sparse Identification of Nonlinear Dynamical Systems." arXiv preprint arXiv:2409.04463 (2024).```
+```Mohammad Amin Basiri and Sina Khanmohammadi. "SINDyG: Sparse Identification of Nonlinear Dynamical Systems from Graph-Structured Data." arXiv preprint arXiv:2409.04463 (2024).```
 
 [https://doi.org/10.48550/arXiv.2409.04463](https://doi.org/10.48550/arXiv.2409.04463).
 
