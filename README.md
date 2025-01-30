@@ -1,4 +1,4 @@
-# Discovering governing equations from Graph-structured data by sparse identification of nonlinear dynamical systems
+# SINDyG: Sparse Identification of Nonlinear Dynamical Systems from Graph-Structured Data
 
 we developed a new method called Sparse Identification of Nonlinear Dynamical Systems from Graph-structured data (SINDyG), which incorporates the network structure into sparse regression to identify model parameters that explain the underlying network dynamics. SINDyG discovers the governing equations of network dynamics while offering improvements in accuracy and model simplicity. 
 
