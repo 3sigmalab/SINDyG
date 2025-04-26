@@ -70,6 +70,7 @@ Please cite the following paper if you use this code.
       * Add `Graph-SINDY/pysindy/optimizers/STLSQG.py` to `(installation directory)/pysindy/optimizers/`
 
 ### Run Experiments
+The `run_experiment` function generates synthetic datasets based on the Stuart-Landau oscillator model with graph-structured coupling. Each node evolves according to the Stuart-Landau equation, and interactions between nodes are determined by the specified graph topology (either Erdős–Rényi or Scale-Free). Coupling strengths and oscillator frequencies are randomly initialized within specified ranges.
 * **Single Run:**
 
    * Execute `SindyGraph_main_singlerun.py` to run a single experiment and visualize results.
