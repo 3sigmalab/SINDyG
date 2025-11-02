@@ -8,9 +8,9 @@ This repository contains Python code for modeling and analyzing coupled oscillat
 
 Please cite the following paper if you use this code. 
 
-```Mohammad Amin Basiri and Sina Khanmohammadi. "SINDyG: Sparse Identification of Nonlinear Dynamical Systems from Graph-Structured Data." arXiv preprint arXiv:2409.04463 (2024).```
+```Mohammad Amin Basiri and Sina Khanmohammadi. "SINDyG: sparse identification of nonlinear dynamical systems from graph-structured data, with applications to Stuart–Landau oscillator networks." Journal of Complex Networks 13, no. 5 (2025): cnaf029.```
 
-[https://doi.org/10.48550/arXiv.2409.04463](https://doi.org/10.48550/arXiv.2409.04463).
+[https://academic.oup.com/comnet/article/13/5/cnaf029/8259871](https://academic.oup.com/comnet/article/13/5/cnaf029/8259871).
 
 
 ## Authors
